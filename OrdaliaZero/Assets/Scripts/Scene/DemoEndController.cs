@@ -9,6 +9,7 @@ public class DemoEndController : MonoBehaviour
     {
 
         if (other.tag == "Player") {
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene("DemoEnd");
         }
         

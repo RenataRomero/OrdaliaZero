@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
 
     Slider hpSlider;
 
-    private Shooter weapon;
+    private Gun weapon;
     Health hp;
 
     [SerializeField]

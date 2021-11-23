@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
     [SerializeField]
-    Shooter assaultRifle;
+    Gun assaultRifle;
 
     Animator animator;
     [SerializeField]
